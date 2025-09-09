@@ -61,50 +61,42 @@ body {
 /****** Header-logo-menu ***********/
 
 header {
-    display: flex; /* Active Flexbox pour aligner les éléments sur une ligne */
-    justify-content: space-between; /* Écarte le logo et la navigation aux extrémités */
-    height: 79px; /* Hauteur du header */
-    margin-bottom: 30px; /* Espace en dessous du header */
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligne le contenu verticalement au centre */
 }
 
 header img {
-    width: 61.09px; /* Taille du logo comme dans l'image */
-    height: 19px; /* Taille du logo comme dans l'image */
-    padding-top: 30px; /* Ajoute de l'espace au-dessus du logo */
+    /* Marge supérieure du logo */
+    margin-top: 30px; 
 }
 
 nav {
-    display: flex; /* Active Flexbox pour la navigation */
-    width: 244px; /* Largeur de la navigation */
-    height: 35px; /* Hauteur de la navigation */
-    padding-top: 0px; /* Ajoute de l'espace au-dessus de la navigation */
-    gap: 68px; /* L'espacement entre les liens */
+    display: flex;
+    gap: 68px;
+    height: 100%; /* Important pour que l'align-items fonctionne */
 }
 
 nav a {
-  text-decoration: none; /* Pour enlever le soulignement */
-  color: black; /* Couleur du texte */
-  padding-top: 27px; /* Pour centrer verticalement les liens */
-  position: relative; /* Indispensable pour positionner la ligne du hover */
-}
-
-nav a:hover {
-  color: #0065FC; /* Change la couleur du texte au survol */
+    text-decoration: none;
+    color: black;
+    /* Laisse juste le padding pour l'espace intérieur des liens */
+    padding: 27px 0; 
+    position: relative; 
 }
 
 nav a::after {
-  content: ""; /* Nécessaire pour afficher l'élément */
-  position: absolute; /* Pour positionner la ligne par rapport au lien */
-  top: 0; /* Positionne la ligne en haut du lien */
-  left: 0;  /* Aligne la ligne à gauche du lien */
-  width: 100%;  /* La ligne fait toute la largeur du lien */
-  height: 2px;  /* Hauteur de la ligne */
-  background-color: transparent; /* Couleur de la ligne (transparent par défaut) */
+    content: "";
+    position: absolute;
+    top: -2px; /* Positionne l'élément au-dessus du lien */
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
 }
 
 nav a:hover::after {
-  background-color: #0065FC; /* Change la couleur de la ligne au survol */
+    background-color: #0065FC; /* Applique la couleur au survol */
 }
 
 /****** Hebergements And Populaires ***********/

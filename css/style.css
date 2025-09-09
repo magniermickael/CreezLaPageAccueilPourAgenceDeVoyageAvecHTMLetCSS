@@ -14,21 +14,22 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    margin: auto; /* Centre le corps horizontalement */
-    
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    justify-content: center; /* Centre le corps horizontalement */  
 
 }
 
 .main-container {
-    width: 100%;
-    max-width: 1440px;
+    width: 100%; /* Prend toute la largeur disponible */
+    max-width: 1440px; /* Largeur maximale de 1440px */
     padding: 0 50px; /* Padding gauche et droite de 50px */
-    box-sizing: border-box;
-   
-}
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+}    
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 .section-title {
     margin: 0;

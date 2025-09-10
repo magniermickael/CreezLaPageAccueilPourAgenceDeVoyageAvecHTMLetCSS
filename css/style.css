@@ -108,6 +108,100 @@ nav a:hover::after {
   background-color: #0065FC; /* Change la couleur de la ligne au survol */
 }
 
+/****** Section Formulaire ***********/
+.section-search{
+    display:flex; /* Active Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    width: 100%; /* Prend toute la largeur disponible */
+    height: 281px; /* Hauteur de la section */
+    gap: 35px; /* Espace entre les éléments */
+}
+
+.div-search{
+    display:flex; /* Active Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    width: 100%; /* Prend toute la largeur disponible */
+    gap: 8px; /* Espace entre les éléments */
+    color: #000000; /* Couleur du texte */
+}
+
+h1 {
+    height: 26px; /* Hauteur du titre */
+    font-size: 22px; /* Taille de la police */
+    font-weight: 700; /* Poids de la police */
+    margin: 0; /* Enlève les marges par défaut */
+    
+}
+
+.p-section-search {
+    height: 19px; /* Hauteur du paragraphe */
+    font-size: 16px; /* Taille de la police */
+    font-weight: 400; /* Poids de la police */
+    margin: 0; /* Enlève les marges par défaut */
+
+}   
+
+.form-search {
+    display: flex; /* Active Flexbox pour aligner les éléments */
+   /* margin: 0;  Enlève les marges par défaut */
+    width: 377px; /* Largeur du formulaire */
+    height:49px; /* Hauteur des colonnes */
+    align-items: center;
+}
+
+.form-column {
+    display: inline-block; /* Affiche les éléments en ligne */
+    margin: 0; /* Enlève les marges par défaut */
+    vertical-align: top; /*aligne les éléments en haut */
+    height: 49px; /* Hauteur des colonnes */
+
+    
+    
+}
+
+.settings-btn-1 {
+    width: 50px; /* Largeur du bouton */
+    height: 49px; /* Hauteur des colonnes */
+    border-top-left-radius: 15px; /* Arrondi en haut à gauche */
+    border-bottom-left-radius: 15px;
+    border: 1px;
+}
+
+.settings-btn-1 i {
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    font-size: 18px;
+    color: #000000; 
+}
+
+.settings-btn-2 {
+    font-size: 18px;
+    width: 195px;
+    height: 49px; /* Hauteur des colonnes */
+    border-style: solid;
+    border: 1px;
+    border-color: #a72a2a;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    padding: 0 10px;
+    
+}
+
+.settings-btn-3 {
+    font-size: 18px;
+    width: 132px;
+    height: 49px; /* Hauteur des colonnes */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; /* Arrondi en bas à droite */
+    border: 1px;
+    background-color: #0065FC;
+    color: #ffffff;
+}
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

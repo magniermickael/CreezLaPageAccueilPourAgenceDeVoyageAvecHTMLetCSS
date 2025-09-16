@@ -275,7 +275,7 @@ h1 {
 /****** Hebergements ***********/
 .hebergements {
     display: flex; /* Active Flexbox pour aligner les éléments */
-    flex-direction: column; /* Aligne les éléments en colonne */
+    flex-direction: column; /* Aligne les éléments en colonne */  
     width: 65%; /* Largeur de la section hébergements */ 
     height: 614px; /* Hauteur de la section hébergements */
     gap: 30px; /* Espace entre les éléments */
@@ -286,13 +286,14 @@ h1 {
     flex-direction: row; /* Aligne les éléments en ligne */
     flex-wrap: nowrap; /* Empêche le retour à la ligne */
     justify-content: space-between; /* Écarte les cartes aux extrémités */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
     width: 811px; /* Largeur des lignes */
     height: 207px; /* Hauteur des lignes */
     gap: 30px; /* espace entre les cartes */    
 }
 
 .card-link {
-    width: 30%; /* Largeur du lien */
+    width: 33%; /* Largeur du lien */
     height: 207px; /* Hauteur du lien */
 }
 
@@ -382,7 +383,61 @@ h1 {
     font-weight: 700;  /* Poids de la police */
 }
 
+/****** Activités à Marseille ***********/
+.activities {
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    width: 100%; /* Prend toute la largeur disponible */
+    height: 559px; /* Hauteur de la section */
+    padding: 30px; /* Ajoute du padding */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+    gap:30px; /* Espace entre les éléments */
+}
+.activities-title {
+    margin: 0; /* Enlève les marges par défaut */
+    font-size: 22px; /* Taille de la police */
+    font-weight: 700; /* Poids de la police */
+}
 
+.activities-line {
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    flex-direction: row; /* Aligne les éléments en ligne */
+    flex-wrap: nowrap; /* Empêche le retour à la ligne */
+    justify-content: space-between; /* Écarte les cartes aux extrémités */
+    width: 100%; /* Prend toute la largeur disponible */
+    height: 439px; /* Hauteur des lignes */
+    gap: 30px; /* espace entre les cartes */    
+}
+
+.activities-card-link {
+    width: 24%; /* Largeur du lien */
+    height: 439px; /* Hauteur du lien */
+}
+
+.activities-article-card {
+    background-color: white; /* Couleur de fond blanche */
+    border-radius: 20px; /* Bords arrondis */
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1)); /* Ajoute une ombre portée */
+    width: 100%; /* Largeur de la carte */
+    height: 439px; /* Hauteur de la carte */
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */ 
+}   
+
+.activities img {
+    width: 100%; /* Largeur de l'image */
+    height: 380px; /* Hauteur de l'image */
+    border-top-left-radius: 20px; /* Arrondi en haut à gauche */
+    border-top-right-radius: 20px; /* Arrondi en bas à gauche */
+    object-fit: cover; /* Couvre toute la zone de l'image */
+}
+
+.activities-card-title {
+    font-size: 16px; /* Taille de la police */
+    font-weight: 700; /* Poids de la police */
+    margin: 0; /* Enlève les marges par défaut */
+    padding: 19px 20px; /* Ajoute du padding */
+} 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

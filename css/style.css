@@ -1,21 +1,22 @@
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif; /* Police principale */
 }
 
 :root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+    --main-color: #0065FC; /* Couleur principale */
+    --main-bg-color: #F2F2F2;  /* Couleur de fond principale */
+    --filter-bg-color: #DEEBFF; /* Couleur de fond des filtres */
 }
 
 .fa-solid {
-    color: var(--main-color);
+    color: var(--main-color); /* Couleur principale */
 }
 
 body {
     display: flex; /* Active Flexbox pour aligner les éléments */
     justify-content: center; /* Centre le corps horizontalement */  
+    margin: 0px; /* Enlève les marges par défaut reset CSS */
 
 }
 
@@ -27,36 +28,36 @@ body {
 }    
 
 a {
-    color: inherit;
-    text-decoration: none;
+    color: inherit; /* Hérite de la couleur parente */ 
+    text-decoration: none; /* Enlève le soulignement */
 }
 
 .section-title {
-    margin: 0;
-    font-size: 22px;
+    margin: 0; /* Enlève les marges par défaut */
+    font-size: 22px; /* Taille de la police */
 }
 
 .card {
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    background-color: white; /* Couleur de fond blanche */
+    border-radius: 20px; /* Bords arrondis */
+    padding: 5px; /* Ajoute du padding */
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1)); /* Ajoute une ombre portée */
 }
 
 .card img {
-    object-fit: cover;
+    object-fit: cover; /* Couvre toute la zone de l'image */
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 16px; /* Taille de la police */
 }
 
 .euro {
-    font-weight: 700;
+    font-weight: 700;  /* Met le texte en gras */
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color)  /* Couleur de l'étoile neutre */
 }
 
 /****** Header-logo-menu ***********/
@@ -101,7 +102,7 @@ nav a::after {
   left: 0;  /* Aligne la ligne à gauche du lien */
   width: 100%;  /* La ligne fait toute la largeur du lien */
   height: 2px;  /* Hauteur de la ligne */
-  background-color: transparent; /* Couleur de la ligne (transparent par défaut) */
+  background-color: white; /* Couleur de la ligne */
 }
 
 nav a:hover::after {
@@ -146,7 +147,7 @@ h1 {
    /* margin: 0;  Enlève les marges par défaut */
     width: 377px; /* Largeur du formulaire */
     height:49px; /* Hauteur des colonnes */
-    align-items: center;
+    align-items: center; /* Centre les éléments verticalement */
 }
 
 .form-column {
@@ -160,68 +161,68 @@ h1 {
     width: 50px; /* Largeur du bouton */
     height: 49px; /* Hauteur des colonnes */
     border-top-left-radius: 15px; /* Arrondi en haut à gauche */
-    border-bottom-left-radius: 15px;
-    border: 1px;
+    border-bottom-left-radius: 15px; /* Arrondi en bas à gauche */
+    border: 1px; /* Ajoute une bordure */
 }
 
 .settings-btn-1 i {
-    display: inline-block;
-    width: 14px;
-    height: 18px;
-    font-size: 18px;
-    color: #000000; 
+    display: inline-block; /* Affiche l'icône en ligne */
+    width: 14px; /* Largeur de l'icône */
+    height: 18px; /* Hauteur de l'icône */
+    font-size: 18px;/* Taille de l'icône */
+    color: #000000;  /* Couleur d l'icone */
 }
 
 .settings-btn-2 {
-    font-size: 18px;
-    width: 195px;
+    font-size: 18px; /* Taille de l'icône */
+    width: 195px; /* Largeur du bouton */
     height: 49px; /* Hauteur des colonnes */
-    border-style: solid;
-    border: 1px;
-    border-color: #F2F2F2;
-    font-weight: 700;
-    color: #000000;
-    text-align: center;
-    padding: 0 10px;
+    border-style: solid; /* Style de la bordure */
+    border: 1px; /* Ajoute une bordure */
+    border-color: #F2F2F2; /* Couleur de la bordure */
+    font-weight: 700; /* Poids de la police */
+    color: #000000; /* Couleur du texte */
+    text-align: center; /* Centre le texte */
+    padding: 0 10px; /* Ajoute du padding gauche et droite */
     
 }
 
 .settings-btn-3 {
-    font-size: 18px;
-    font-weight: 700;
-    width: 132px;
+    font-size: 18px; /* Taille de l'icône */
+    font-weight: 700; /* Poids de la police */
+    width: 132px; /* Largeur du bouton */
     height: 49px; /* Hauteur des colonnes */
-    border-top-right-radius: 15px;
+    border-top-right-radius: 15px; /* Arrondi en haut à droite */
     border-bottom-right-radius: 15px; /* Arrondi en bas à droite */
-    border: 1px;
-    background-color: #0065FC;
-    color: #ffffff;
+    border: 1px; /* Ajoute une bordure */
+    background-color: #0065FC; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
 }
 
 /****** filtres ***********/
 .section-search h2 {
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0;
+    font-size: 18px; /* Taille de la police */
+    font-weight: 700; /* Poids de la police */
+    margin: 0; /* Enlève les marges par défaut */
 }
 
 .filtre-container {
-    display: flex;
-    gap: 15px; 
-    align-items: center; 
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    gap: 15px;  /* Espace entre les éléments */
+    align-items: center;  /* Centre les éléments verticalement */
 }
 
 .filtre-btn {
-    display: flex; 
-    align-items: center; 
-    height: 50px;
-    padding: 4px 19px; 
-    background-color: white;
-    border: 2px solid #d9d9d9;
-    border-radius: 25px;
-    font-size: 17px; 
-    font-weight: 700; 
-    gap: 10px;
+    display: flex;  /* Active Flexbox pour aligner les éléments */
+    align-items: center; /* Centre les éléments verticalement */
+    height: 50px; /* Hauteur des boutons */
+    padding: 4px 19px; /* Padding haut/bas et gauche/droite */
+    background-color: white; /* Couleur de fond */
+    border: 2px solid #d9d9d9; /* Bordure grise */
+    border-radius: 25px; /* Bords arrondis */
+    font-size: 17px;  /* Taille de la police */
+    font-weight: 700;  /* Poids de la police */
+    gap: 10px; /* Espace entre l'icône et le texte */
 }
 
 .filtre-btn:hover {
@@ -229,102 +230,157 @@ h1 {
 }
 
 .filtre-btn i {
-    font-size: 22px;
+    font-size: 22px; /* Taille de l'icône */
 }
 
 .info-message {
-    display: flex; 
-    align-items: center; 
-    margin-bottom: 35px;
-    gap: 10px;
+    display: flex;  /* Active Flexbox pour aligner les éléments */
+    align-items: center;  /* Centre les éléments verticalement */
+    gap: 10px; /* Espace entre l'icône et le texte */
 }
 
 .info-message i {
-    color: #0065FC;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: 24px;
-    height: 24px;
-    border: 1px solid #D9D9D9;
-    border-radius: 50%;
+    color: #0065FC; /* Couleur de l'icône */
+    font-size: 10px; /* Taille de l'icône */
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    justify-content: center; /* Centre l'icône horizontalement */
+    align-items: center;  /* Centre l'icône verticalement et horizontalement */
+    width: 24px; /* Largeur de l'icône */
+    height: 24px; /* Hauteur de l'icône */
+    border: 1px solid #D9D9D9; /* Bordure grise */
+    border-radius: 50%; /* Cercle */
 }
 
 .info-message p {
-    margin: 0; 
-    font-size: 16px; 
-    font-weight: 400; 
+    margin: 0;  /* Enlève les marges par défaut */
+    font-size: 16px;  /* Taille de la police */
+    font-weight: 400;  /* Poids de la police */
 }
 
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
-    display: flex;
-    justify-content: space-between;
-    
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    justify-content: space-between; /* Écarte les deux sections aux extrémités */
+    margin-top: 35px; /* Espace au-dessus des sections */
+    gap: 40px; /* Espace entre les deux sections */
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
-    border-radius: 20px;
-    padding: 30px;
-    box-sizing: border-box;
-    margin-top: 40px;
+    background-color: var(--main-bg-color); /* Couleur de fond principale */
+    border-radius: 20px; /* Bords arrondis */
+    padding: 30px; /* Ajoute du padding */   
 }
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    width: 65%; /* Largeur de la section hébergements */ 
+    height: 614px; /* Hauteur de la section hébergements */
+    gap: 30px; /* Espace entre les éléments */
+}
+
+.hebergements-lines {
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    flex-direction: row; /* Aligne les éléments en ligne */
+    flex-wrap: nowrap; /* Empêche le retour à la ligne */
+    justify-content: space-between; /* Écarte les cartes aux extrémités */
+    width: 811px; /* Largeur des lignes */
+    height: 207px; /* Hauteur des lignes */
+    gap: 30px; /* espace entre les cartes */    
+}
+
+.card-link {
+    width: 30%; /* Largeur du lien */
+    height: 207px; /* Hauteur du lien */
+}
+
+.article-card {
+    width: 100%; /* Largeur de la carte */
+    height: 207px; /* Hauteur de la carte */
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */ 
+    padding-bottom: 15px; /* Ajoute du padding en bas */
+}
+
+.hebergements img {
+    width: 100%; /* Largeur de l'image */
+    height: 124px; /* Hauteur de l'image */
+    border-top-left-radius: 20px; /* Arrondi en haut à gauche */
+    border-top-right-radius: 20px; /* Arrondi en bas à gauche */
+    object-fit: cover; /* Couvre toute la zone de l'image */
+}
+
+.hebergements-card-content {
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    height: 64px; /* Hauteur du contenu */
+    padding: 15px; /* Ajoute du padding */
+    padding-top: 0px; /* Enlève le padding en haut */
+    flex-direction: column; /* Aligne les éléments en colonne */  
+    gap: 8px; /* Espace entre les éléments */
+}
+
+.hebergements-card-title {
+    font-size: 16px; /* Taille de la police */
+    margin: 0; /* Enlève les marges par défaut */
     
-    
+}
+
+.hebergements-card-subtitle {
+    font-size: 14px; /* Taille de la police */
+    margin: 0; /* Enlève les marges par défaut */
 }
 
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    width: 32%; /* Largeur de la section populaires */
 }
 
 .populaires-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    justify-content: space-between; /* Écarte le titre et le lien aux extrémités */
+    align-items: center; /* Centre les éléments verticalement */
 }
 
 .populaires-cards .card {
-    display: flex;
-    margin-top: 33px;
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    margin-top: 33px; /* Espace au-dessus des cartes */
 }
 
 .populaires-cards img {
-    width: 33%;
-    height: 136px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    width: 33%; /* Largeur de l'image */
+    height: 136px; /* Hauteur de l'image */
+    border-top-left-radius: 20px; /* Arrondi en haut à gauche */
+    border-bottom-left-radius: 20px; /* Arrondi en bas à gauche */
 }
 
 .populaires-cards .card-content {
-    width: 67%;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
+    width: 67%; /* Largeur du contenu */
+    padding-left: 15px; /* Espace à gauche du contenu */
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    justify-content: space-between; /* Écarte les éléments verticalement */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
 }
 
 .populaires-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+    margin-top: 10px; /* Espace au-dessus du titre */
+    margin-bottom: 4px; /* Espace en dessous du titre */
 }
 
 .populaires-cards .card-subtitle {
-    margin: 0;
+    margin: 0; /* Enlève les marges par défaut */
 }
 
 .populaires-cards .card-rating {
-    margin-bottom: 5px;
+    margin-bottom: 5px; /* Espace en dessous de la note */
 }
 
+.afficher-plus {
+    font-size: 18px;  /* Taille de la police */
+    font-weight: 700;  /* Poids de la police */
+}
 
 
 
@@ -334,34 +390,34 @@ h1 {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
-        flex-direction: column;
+        flex-direction: column; /* Aligne les sections en colonne */
     }
 
     .hebergements {
-        width: 100%;
+        width: 100%; /* Largeur de la section hébergements */
     }
 
     .populaires {
-        width: 100%;
-        margin-top: 50px;
+        width: 100%; /* Largeur de la section populaires */
+        margin-top: 50px; /* Espace au-dessus de la section populaires */
     }
 
     .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        display: flex; /* Active Flexbox pour aligner les éléments */
+        flex-direction: row; /* Aligne les cartes en ligne */
+        justify-content: space-between; /* Écarte les cartes aux extrémités */
     }
 
     .populaires-cards a {
-        width: 30%;
+        width: 30%; /* Largeur des cartes */
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 14px; /* Taille de la police du titre */
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 13px; /* Taille de la police du sous-titre */
     }
 }
 

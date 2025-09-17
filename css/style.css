@@ -439,6 +439,45 @@ h1 {
     padding: 19px 20px; /* Ajoute du padding */
 } 
 
+/****** Footer ***********/
+
+.footer {
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    justify-content: space-around; /* Écarte les colonnes aux extrémités */
+    padding: 20px; /* Ajoute du padding */
+    margin-top: 50px; /* Espace au-dessus du footer */
+    background-color: var(--main-bg-color); /* Couleur de fond principale */
+}
+
+.footer-column {
+    display: flex; /* Active Flexbox pour aligner les éléments */
+    flex: 1; /* Chaque colonne prend une part égale de l'espace */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    padding: 0 15px; /* Ajoute du padding gauche et droite */
+}
+
+.footer-column-title {
+    font-size: 18px; /* Taille de la police */
+    font-weight: 700; /* Poids de la police */
+    margin: 0 0 15px 0; /* Correction de la marge */
+}
+
+.footer-column-list {
+    list-style: none; /* Enlève les puces */
+    padding: 0; /* Enlève le padding par défaut */
+    margin: 0; /* Enlève les marges par défaut */
+}
+
+.footer-column-list-item {
+    font-size: 16px; /* Taille de la police */
+    font-weight: 400; /* Poids de la police */
+    margin-bottom: 10px; /* Espace entre les éléments de la liste */
+}
+
+.footer-column-link {
+    text-decoration: none; /* Enlève le soulignement */
+    color: inherit; /* Hérite de la couleur parente */
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/

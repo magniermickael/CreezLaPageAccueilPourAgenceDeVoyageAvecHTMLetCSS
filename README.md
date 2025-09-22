@@ -111,4 +111,4 @@ index.html
 ## Crédits
 👨‍💻 Auteur : **Mickaël Magnier**  
 - GitHub : [magniermickael](https://github.com/magniermickael)  
-- LinkedIn : *à insérer si tu veux*
+

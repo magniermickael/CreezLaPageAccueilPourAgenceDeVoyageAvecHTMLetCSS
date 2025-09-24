@@ -59,7 +59,7 @@ a {
 }
 
 .neutral-star {
-    color: var(--main-bg-color)  /* Couleur de l'étoile neutre */
+    color: var(--main-bg-color);  /* Couleur de l'étoile neutre */
 }
 
 /****** Header-logo-menu ***********/

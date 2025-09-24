@@ -103,7 +103,7 @@ index.html
 ---
 
 ## Démo
-🌍 *https://github.com/magniermickael/CreezLaPageAccueilPourAgenceDeVoyageAvecHTMLetCSS*  
+🌍 *https://magniermickael.github.io/CreezLaPageAccueilPourAgenceDeVoyageAvecHTMLetCSS/*  
 ✅ *<img alt="Static Badge" src="https://img.shields.io/badge/Projet%20finalis%C3%A9-vert?style=flat&logoColor=vert">*
 
 ---
